@@ -256,7 +256,7 @@ public:
     CV_WRAP virtual void update(InputArrayOfArrays src, InputArray labels);
 
     /** @overload */
-    CV_WRAP_AS(predict_label) int predict(InputArray src) const;
+    int predict(InputArray src) const;
 
 
     /** @brief Predicts a label and associated confidence (e.g. distance) for a given input image.
